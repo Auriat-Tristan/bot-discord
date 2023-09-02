@@ -18,22 +18,22 @@ client.on('message', (message) => {
         
         if (message.content.toLowerCase() === 'lecky') { // Vérifiez si le contenu du message est "lecky"
             // Répondez avec un message
-            message.channel.send('Vas te faire enculé toi et la roue.');
+            message.channel.send('tu es qui pour @ ');
         }
 
         
 
-         if(cmember.id === '608392560389390346'){ // identifiant de lecky 
+         if(cmember.id === 'identifiant de la personne concerné'){ //copier l'identifiant de la personne concerne pour que comme ca une fois @ le bot repond dans le channel
             message.channel.send('tu es qui pour me @ ');
         }
 
-        else if(cmember.id === '384397009894768640'){ //identifiant de haiko
+        else if(cmember.id === 'identifiant de la personne concerné'){
             message.channel.send('Il veut quoi l\'autre');
 
             //  message.author.send('Il est trop occupé c\'est une star');
         }
 
-        else if(cmember.id === '797188270881767465'){ //identifiant de Wassil
+        else if(cmember.id === 'identifiant de la personne concerné'){ 
             message.channel.send('un ptit cache cache allez');
         }
         }
